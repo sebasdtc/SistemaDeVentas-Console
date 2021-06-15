@@ -360,6 +360,7 @@ void ErrorMessage(const char *text)
     Console::ResetColor();
 }
 
+// Funcion Registros
 bool ExistUser(UserKeys _uKey)
 {
     UserKeys u;
