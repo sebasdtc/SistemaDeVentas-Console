@@ -3,14 +3,14 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "futil.hpp"
+#include "../lib/ftr.hpp"
 #include "Employees.hpp"
 #include "userKeys.hpp"
 //#include "Registros.hpp"
-#define FILE_STAFF "regTrab.dat"
-#define FILE_USER "regUser.dat"
+#define FILE_STAFF "../data/regTrab.dat"
+#define FILE_USER "../data/regUser.dat"
 
-using namespace futil;
+using namespace ftr;
 
 void Program();
 

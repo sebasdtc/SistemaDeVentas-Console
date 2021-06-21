@@ -1,4 +1,4 @@
-#include "Program.hpp"
+#include "../include/Program.hpp"
 
 // Programa principal Administrador
 void Program()
@@ -26,7 +26,7 @@ void Program()
         if (op == 0)
         {
             std::cout << "Fin del programa...\n";
-            Console::Getch();
+            Console::ReadKey();
             return;
         }
         if (op == 1)
@@ -37,19 +37,19 @@ void Program()
         if (op == 2)
         {
             std::cout << "opcion 2\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 3)
         {
             std::cout << "opcion 3\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 4)
         {
             std::cout << "opcion 4\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
     } while (true);
@@ -90,13 +90,13 @@ void SystemMenu()
         if (op == 2)
         {
             std::cout << "opcion 2\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 3)
         {
             std::cout << "opcion 3\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
     } while (true);
@@ -132,7 +132,7 @@ void RegisterPersonal()
     {
         std::cout << "Registro Exitoso!\n";
         std::cout << "Su Codigo generado es: " << emp.GetCode() << std::endl;
-        futil::Console::Sleep(1000);
+        ftr::Console::Sleep(1000);
         std::cout << "Este codigo le permitira tener acceso al sistema\n";
     }
     else
@@ -173,7 +173,7 @@ void RegisterPersonal()
         ErrorMessage("\t  Deshabilite su antivirus e intente de nuevo");
         ErrorMessage("\t.No tiene suficiente espacio para mas registros");
     }
-    futil::Console::Sleep(2000);
+    ftr::Console::Sleep(2000);
 }
 
 // Menu Almacen, para manejo de los insumos y/o productos
@@ -204,25 +204,25 @@ void Warehouse()
         if (op == 1)
         {
             std::cout << "opcion 1\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 2)
         {
             std::cout << "opcion 2\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 3)
         {
             std::cout << "opcion 3\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 4)
         {
             std::cout << "opcion 4\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
     } while (true);
@@ -256,25 +256,25 @@ void sales()
         if (op == 1)
         {
             std::cout << "opcion 1\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 2)
         {
             std::cout << "opcion 2\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 3)
         {
             std::cout << "opcion 3\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 4)
         {
             std::cout << "opcion 4\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
     } while (true);
@@ -307,19 +307,19 @@ void buy()
         if (op == 1)
         {
             std::cout << "opcion 1\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 2)
         {
             std::cout << "opcion 2\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
         if (op == 3)
         {
             std::cout << "opcion 3\n";
-            Console::Getch();
+            Console::ReadKey();
             continue;
         }
     } while (true);
